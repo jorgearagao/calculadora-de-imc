@@ -12,8 +12,10 @@
 <body>
 
   <section class="container">
+
     <h1>Tabela IMC</h1>
-    <table>
+
+    <table class="tabela">
       <tr>
         <th>IMC</th>
         <th>Resultado</th>
@@ -43,6 +45,18 @@
         <td>Obesidade grau 3</td>
       </tr>
     </table>
+
+    <h2>Calcule seu IMC</h2>
+
+    <form action="">
+      <label for="peso">Peso:</label>
+      <input type="text" id="peso" name="peso">
+      <label for="altura">Altura</label>
+      <input type="text" id="altura" name="altura">
+
+      <button>Calcular</button>
+    </form>
+
   </section>
 
   <script src="./assets/js/main.js"></script>
