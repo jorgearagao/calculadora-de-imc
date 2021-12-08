@@ -61,3 +61,13 @@ form button:hover {
   text-align: left;
   width: 600px;
 }
+
+.paragrafo-resultado {
+  background: rgb(59, 245, 90);
+  padding: 10px 20px;;
+}
+
+.bad {
+  background: rgb(224, 73, 68);
+  padding: 10px 20px;;
+}
